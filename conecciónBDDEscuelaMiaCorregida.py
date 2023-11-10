@@ -6,7 +6,7 @@ import mysql.connector
 #AGU CONNECTION STRING 
 # conexion = mysql.connector.connect(host="localhost", user="root", password="123456789", database="ESCUELA")
 #CONNECTION STRING LUCAS
-conexion = mysql.connector.connect(host="127.0.0.1", user="root", password="Martin*30",port=3305 ,database="ESCUELA")
+conexion = mysql.connector.connect(host="127.0.0.1", user="root", password="root",port=3305 ,database="ESCUELA")
 def cargar_datos():
     # (*) Desempaquetar datos y traerlos separados
     # (get_children) Funcion pre hecha 
